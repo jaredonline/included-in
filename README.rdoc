@@ -4,7 +4,21 @@ Rails gem that adds an included_in? method to Object for a more readable syntax 
 
 == Install
 
+As a gem (without Bundler)
+
   gem install jaredonline-included-in --source http://gems.github.com
+  
+As a gem (with Bundler)
+  
+  gem 'jaredonline-included-in', :source => 'http://gems.github.com'
+  
+As a plugin (Rails 2.3.x)
+
+  script/plugin install git://github.com/jaredonline/included-in.git
+  
+As a plugin (Rails 3.x)
+
+  rails plugin install git://github.com/jaredonline/included-in.git
   
 == Usage
 
