@@ -1,0 +1,31 @@
+= Included In
+
+Rails gem that adds an included_in? method to Object for a more readable syntax of include?
+
+== Install
+
+  gem install jaredonline-included-in --source http://gems.github.com
+  
+== Usage
+
+If you have an object, say a String, "test" and you want to check for its inclusion in an array, ["test", "jack", "Three"], without using Included-In your code would look like
+  
+  str = "test"
+  arr = ["test", "jack", "Three"]
+  
+  if arr.include?("test")
+    # do something...
+  else
+    # do something else...
+  end
+  
+It reads "If the array contains this string", when the real question is, "If the string is included in the array".  The first sentence puts the importance on the array, the second is more concerned with the array. With Included-In it would look like
+
+  str = "test"
+  arr = ["test", "jack", "Three"]
+  
+  if str.included_in?(arr)
+    # do something...
+  else
+    # do something else...
+  end
