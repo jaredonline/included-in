@@ -3,14 +3,10 @@
 Rails gem that adds an included_in? method to Object for a more readable syntax of include?
 
 == Install
-
-As a gem (without Bundler)
-
-  gem install jaredonline-included-in --source http://gems.github.com
   
 As a gem (with Bundler)
   
-  gem 'jaredonline-included-in', :source => 'http://gems.github.com'
+  gem "jaredonline-included-in", :git => "git://github.com/jaredonline/included-in.git"
   
 As a plugin (Rails 2.3.x)
 
