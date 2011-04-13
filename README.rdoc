@@ -19,7 +19,7 @@ If you have an object, say a String, "test" and you want to check for its inclus
     # do something else...
   end
   
-It reads "If the array contains this string", when the real question is, "If the string is included in the array".  The first sentence puts the importance on the array, the second is more concerned with the array. With Included-In it would look like
+It reads "If the array contains this string", when the real question is, "If the string is included in the array".  The first sentence puts the importance on the array, the second is more concerned with the string. With Included-In it would look like
 
   str = "test"
   arr = ["test", "jack", "Three"]
