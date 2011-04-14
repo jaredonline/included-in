@@ -1,6 +1,8 @@
 = Included In
 
-Rails gem that adds an included_in? method to Object for a more readable syntax of include?
+Rails gem that adds an in? method to Object for a more readable syntax of include?
+
+Mimics the functionality of ActiveSupport 3.1
 
 == Install
   
@@ -34,7 +36,7 @@ It reads "If the array contains this string", when the real question is, "If the
   str = "test"
   arr = ["test", "jack", "Three"]
   
-  if str.included_in?(arr)
+  if str.in?(arr)
     # do something...
   else
     # do something else...
