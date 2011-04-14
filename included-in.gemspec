@@ -6,16 +6,18 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jared McFarland"]
+  s.cert_chain = ["/Users/jared/gems/keys/gem-public_cert.pem"]
   s.date = %q{2011-04-13}
   s.description = %q{Adds an included_in? method to Object for a more readable syntax of include?}
   s.email = %q{jared.online@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/included_in.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/included_in.rb", "Manifest", "included-in.gemspec"]
+  s.files = ["README.rdoc", "Rakefile", "included-in.gemspec", "init.rb", "lib/included_in.rb", "Manifest"]
   s.homepage = %q{https://github.com/jaredonline/included-in}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Included-in", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{included-in}
   s.rubygems_version = %q{1.6.0}
+  s.signing_key = %q{/Users/jared/gems/keys/gem-private_key.pem}
   s.summary = %q{Adds an included_in? method to Object for a more readable syntax of include?}
 
   if s.respond_to? :specification_version then
