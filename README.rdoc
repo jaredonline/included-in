@@ -6,7 +6,7 @@ Rails gem that adds an included_in? method to Object for a more readable syntax 
   
 As a gem (with Bundler)
   
-  gem "included-in"
+  gem "included-in", :require => "included_in"
 
 As a plugin (Rails 2.3.x)
 
