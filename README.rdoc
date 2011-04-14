@@ -6,8 +6,8 @@ Rails gem that adds an included_in? method to Object for a more readable syntax 
   
 As a gem (with Bundler)
   
-  gem "jaredonline-included-in", :git => "git://github.com/jaredonline/included-in.git"
-  
+  gem "included-in"
+
 As a plugin (Rails 2.3.x)
 
   script/plugin install git://github.com/jaredonline/included-in.git
