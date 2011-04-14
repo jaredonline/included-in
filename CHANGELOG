@@ -1,3 +1,8 @@
+* v 0.2.1
+
+Changed the way it checks for error to reduce the upfront cost of checking #respond_to? and now just catching NoMethodError (no additional cost)
+
 * v 0.2.0 
 
 Mimics the way ActiveSupport 3.1 calls the method and organizes the code. Object#included_in? => Object#in?
+
