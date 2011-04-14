@@ -1,0 +1,1 @@
+require "included_in/object/inclusion.rb"
